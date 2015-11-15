@@ -7,17 +7,17 @@ inLanguage: null
 starred: false
 keywords: []
 description: "One Man's Adventure to Become a Ninja"
-datePublished: '2015-11-15T06:38:49.789Z'
-dateModified: '2015-11-15T06:38:32.678Z'
+datePublished: '2015-11-15T23:50:26.576Z'
+dateModified: '2015-11-15T23:50:23.353Z'
 title: Become The Ninja
+sourcePath: _posts/2015-11-15-become-the-ninja.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-15-become-the-ninja.md
-published: true
 _type: Blurb
 
 ---
