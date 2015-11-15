@@ -6,9 +6,9 @@ isBasedOnUrl: null
 inLanguage: null
 starred: false
 keywords: []
-description: One Mans Adventure to Become a Ninja
-datePublished: '2015-11-15T05:59:03.996Z'
-dateModified: '2015-11-15T05:58:39.374Z'
+description: "One Man's Adventure to Become a Ninja"
+datePublished: '2015-11-15T06:08:40.755Z'
+dateModified: '2015-11-15T06:08:27.860Z'
 title: Become The Shadow
 authors: []
 publisher:
@@ -21,7 +21,9 @@ published: true
 _type: Blurb
 
 ---
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/e9b8e5af-a004-4eb9-b847-39526325c634.jpg)
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/9a003d64-bbde-48c0-b872-55f9ba7de74c.png)
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/285c55e6-7714-4dc1-955f-de9781a739ee.png)
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/90e7b6d2-d3ed-485f-9804-75a87725cada.jpg)
 
 **_ONCE UPON A TIME_**
 
@@ -38,11 +40,15 @@ Fast forward several years and I am now getting ready to leave the army and that
 So I went to kempo for several years till the time came that we had to move to a tiny town and there was no martial arts school. From there that was pretty much the end of my budo studies till I turned nineteen and joined the army. Then in 2002 the army taught me Brazilian Jujitsu. Well I like to say they taught me the ground portion of BJJ because that's all the army teaches are the parts were you are rolling around on the ground and grappling. The army is not really willing to teach you much else unless you want to get teased and have the instructors beat the crap out of you with fighting sticks. The army combatives program is very sadistic under the guise of preparing you to kill someone.
 
 But one day it finally happened, my dad decided it was time for me to enroll in karate. The decision was finally made because he was tired of me being picked on in school. You could pick any number of reasons why I got beat up as a kid. I was skinny, short, poor, had a bad haircut, and a mouth that was quick to tell bullies to bring it.  So my dad picked a school and I started attending Tom Kelly's Kempo Karate. I still remembering going to my first class. We showed up a couple of days before class, paid my dues, bought my white gi and belt, and my father was very quick to explain to Sensei Kelly that I wanted to be like Daniel-son. I was so embarrassed my face turned bright red. All he said was "Mr. Miyagi doesn't know real karate."
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/8d1f7045-e6a1-4d65-8b1e-544d4ac74974.jpg)
 
-**_LINKS_**
+So I went to kempo for several years till the time came that we had to move to a tiny town and there was no martial arts school. From there that was pretty much the end of my budo studies till I turned nineteen and joined the army. Then in 2002 the army taught me Brazilian Jujitsu. Well I like to say they taught me the ground portion of BJJ because that's all the army teaches are the parts were you are rolling around on the ground and grappling. The army is not really willing to teach you much else unless you want to get teased and have the instructors beat the crap out of you with fighting sticks. The army combatives program is very sadistic under the guise of preparing you to kill someone.
 
-Ninjutsu sites that I consider worthwhile.
+Fast forward several years and I am now getting ready to leave the army and that is leaving me with more time than what I am use to. So after many years of looking for dojos and many attempts to try to start to attend class I finally found a Sensei that is near me. I made this site mainly so that I had a creative outlet to express my thoughts.
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/bd0225ff-fdca-4ad9-9819-99385829e30b.jpg)
+
+_**LINKS**_
+
+Ninjutsu sites that I consider worth while.
 
 * [Bujinkan Dojo Honbu][0] - Soke's Dojo
 * [Temple Bujinkan][1]- The dojo I study at currently
@@ -57,7 +63,7 @@ Ninjutsu sites that I consider worthwhile.
 * [Shinobi Exchange][10]- Great store based out of Hawaii that sells high quality Gi, swords, bo, training weapons, ect.
 * [YariNoHanzo][11]- Maker of the best keikogi for ninjutsu. What I currently recommend and wear.
 * [Kage Ninja Gear][12]- Maker of tabi and leg wraps.
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/49ec7b9b-e4a2-4398-83d4-2308a3d247ea.jpg)
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/83a3c6a6-fd68-43cd-bab4-b2c6e0e5d1b6.jpg)
 
 [0]: http://www.bujinkan.com/
 [1]: http://templebujinkan.com/
