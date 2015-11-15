@@ -6,10 +6,10 @@ isBasedOnUrl: null
 inLanguage: null
 starred: false
 keywords: []
-description: ''
-datePublished: '2015-11-15T05:29:33.155Z'
-dateModified: '2015-11-15T05:29:30.218Z'
-title: "One Man's Adventure to Become a Ninja"
+description: "One Man's Adventure to Become a Ninja"
+datePublished: '2015-11-15T05:41:16.318Z'
+dateModified: '2015-11-15T05:41:14.994Z'
+title: Become The Shadow
 sourcePath: _posts/2015-11-15-one-mans-adventure-to-become-a-ninja.md
 published: true
 authors: []
