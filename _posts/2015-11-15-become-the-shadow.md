@@ -1,24 +1,24 @@
 ---
 inFeed: true
-hasPage: true
+hasPage: false
 inNav: false
+isBasedOnUrl: null
 inLanguage: null
 starred: false
 keywords: []
 description: "One Man's Adventure to Become a Ninja"
-datePublished: '2015-11-15T06:20:15.725Z'
-dateModified: '2015-11-15T06:19:59.280Z'
+datePublished: '2015-11-15T06:22:25.418Z'
+dateModified: '2015-11-15T06:22:20.399Z'
 title: Become The Shadow
+sourcePath: _posts/2015-11-15-become-the-shadow.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-15-become-the-shadow.md
-published: true
-url: become-the-shadow/index.html
-_type: Article
+_type: Blurb
 
 ---
 ![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/e7bf57a3-2719-491d-ad43-540cd092fc8a.png)
