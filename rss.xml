@@ -2,14 +2,21 @@
     <channel>
         <title><![CDATA[One Man's Adventure to Become a Ninja.]]></title>
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Sun, 15 Nov 2015 05:09:46 GMT</lastBuildDate>
-        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 15 Nov 2015 05:20:53 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[First Class]]></title>
+            <description><![CDATA[<h1>First Class</h1>]]></description>
+            <link>https://thegrid.ai/become-the-shadow/first-class/index.html</link>
+            <guid isPermaLink="false">94291fe0-bd3e-4506-a2d9-40a86505710d</guid>
+            <pubDate>Sun, 15 Nov 2015 05:20:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[One Man's Adventure to Become a Ninja]]></title>
             <description><![CDATA[<article><h1>One Man's Adventure to Become a Ninja</h1><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/7e89776f-4280-443a-9c6d-5065b4254f6d.png"></article>]]></description>
-            <link>undefinedone-mans-adventure-to-become-a-ninja/index.html</link>
+            <link>https://thegrid.ai/become-the-shadow/one-mans-adventure-to-become-a-ninja/index.html</link>
             <guid isPermaLink="false">54339ef7-d1ec-4d1e-b95a-c304e9910565</guid>
             <pubDate>Sun, 15 Nov 2015 05:09:32 GMT</pubDate>
         </item>
