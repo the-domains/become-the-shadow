@@ -1,14 +1,14 @@
 ---
-inFeed: true
+inFeed: false
 hasPage: true
 inNav: true
 inLanguage: null
 starred: false
 keywords: []
 description: About Me
-datePublished: '2015-11-15T04:57:03.751Z'
-dateModified: '2015-11-15T04:56:58.739Z'
-title: "\_ONCE UPON A TIME"
+datePublished: '2015-11-15T05:00:38.555Z'
+dateModified: '2015-11-15T05:00:35.306Z'
+title: ONCE UPON A TIME
 sourcePath: _posts/2015-11-15-once-upon-a-time.md
 published: true
 authors: []
@@ -18,10 +18,11 @@ publisher:
   url: null
   favicon: null
 url: once-upon-a-time/index.html
-_type: Article
+_type: WebPage
 
 ---
 # **ONCE UPON A TIME**
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/599a859b-f277-48c2-9dfe-c743e10c846d.jpg)
 
 Ok so naturally you want to know a little about me and this blog, I can understand that. I was born in the early 80s and grew up like almost any kid of the 90s. I woke up early to watch cartoons in 90s and I played with GI Joes. I grew up with my father, after him and my mother got a divorce. I do not come from anything of what you could call a rich family. Heck for a large portion of my life I lived in a trailer. My father was enlisted in the US Air Force and after he retired he tried to find work where he could. He tried to become a cop till he found out, like most ex-military, that your military experience doesn't really mean crap. From there he worked at a gas station, a prison security guard, and finally a truck driver. 
 
