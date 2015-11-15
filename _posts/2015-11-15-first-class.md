@@ -1,24 +1,24 @@
 ---
-inFeed: true
+inFeed: false
 hasPage: true
 inNav: false
 inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2015-11-15T05:20:24.359Z'
-dateModified: '2015-11-15T05:14:58.157Z'
+datePublished: '2015-11-15T05:27:58.316Z'
+dateModified: '2015-11-15T05:27:55.839Z'
 title: First Class
+sourcePath: _posts/2015-11-15-first-class.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-15-first-class.md
-published: true
 url: first-class/index.html
-_type: Article
+_type: Blurb
 
 ---
 # First Class
