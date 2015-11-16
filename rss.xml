@@ -4,7 +4,7 @@
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Mon, 16 Nov 2015 23:28:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2015 23:32:33 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Become The Shadow]]></title>
@@ -12,6 +12,13 @@
             <link>https://thegrid.ai/become-the-shadow/become-the-shadow/index.html</link>
             <guid isPermaLink="false">cd00a43f-b94e-4901-b7aa-7947b7b4f408</guid>
             <pubDate>Mon, 16 Nov 2015 22:48:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Slow Motion]]></title>
+            <description><![CDATA[<article><h1>Slow Motion</h1><p>Slow motion for me.</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/d91a42c0-8842-45dc-82b4-ac145138b525.png"></article>]]></description>
+            <link>https://thegrid.ai/become-the-shadow/slow-motion/index.html</link>
+            <guid isPermaLink="false">4c44d8c1-b689-447d-b78f-b2d5b7af48b5</guid>
+            <pubDate>Mon, 16 Nov 2015 23:30:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Weapons]]></title>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/become-the-shadow/its-like-picking-a-college/index.html</link>
             <guid isPermaLink="false">a25edb46-e8dc-4a06-8148-270a25d25e77</guid>
             <pubDate>Mon, 16 Nov 2015 23:06:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[For the Love of History]]></title>
-            <description><![CDATA[<article><h1>For the Love of History</h1><p>My outlook on Anthony Cummins</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/389331a5-6add-45d6-b353-46f32a7f98e5.jpg"></article>]]></description>
-            <link>https://thegrid.ai/become-the-shadow/for-the-love-of-history/index.html</link>
-            <guid isPermaLink="false">6c4fe903-38d0-47c3-8750-f8e7085c81f2</guid>
-            <pubDate>Mon, 16 Nov 2015 23:05:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
