@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: Once Upon A Time
-datePublished: '2015-11-16T00:22:33.648Z'
-dateModified: '2015-11-16T00:22:28.176Z'
+datePublished: '2015-11-16T00:22:43.452Z'
+dateModified: '2015-11-16T00:22:40.212Z'
 title: ONCE UPON A TIME
 sourcePath: _posts/2015-11-16-once-upon-a-time.md
 published: true
