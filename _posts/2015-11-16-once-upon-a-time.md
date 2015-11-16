@@ -6,17 +6,17 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2015-11-16T00:15:36.692Z'
-dateModified: '2015-11-16T00:12:21.705Z'
+datePublished: '2015-11-16T00:16:05.684Z'
+dateModified: '2015-11-16T00:16:03.053Z'
 title: ONCE UPON A TIME
+sourcePath: _posts/2015-11-16-once-upon-a-time.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-16-once-upon-a-time.md
-published: true
 url: once-upon-a-time/index.html
 _type: WebPage
 
