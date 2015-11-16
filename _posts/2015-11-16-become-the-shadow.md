@@ -6,25 +6,21 @@ inLanguage: null
 starred: false
 keywords: []
 description: "One Man's Adventure to Become a Ninja"
-datePublished: '2015-11-16T22:40:38.475Z'
-dateModified: '2015-11-16T22:40:26.217Z'
+datePublished: '2015-11-16T22:43:39.679Z'
+dateModified: '2015-11-16T22:43:36.145Z'
 title: Become The Shadow
+sourcePath: _posts/2015-11-16-become-the-shadow.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-16-become-the-shadow.md
-published: true
 url: become-the-shadow/index.html
 _type: Article
 
 ---
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/7b04588a-747e-430a-b429-7d396537b5ee.png)
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/fb551a9f-8cba-4059-a96c-a24b41a56b2f.png)
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/895f5776-c2cf-4519-bb14-34e8fe459a6c.jpg)
-
 ONCE UPON A TIME
 
 Ok so naturally you want to know a little about me and this blog, I can understand that. I was born in the early 80s and grew up like almost any kid of the 90s. I woke up early to watch cartoons in 90s and I played with GI Joes. I grew up with my father, after him and my mother got a divorce. I do not come from anything of what you could call a rich family. Heck for a large portion of my life I lived in a trailer. My father was enlisted in the US Air Force and after he retired he tried to find work where he could. He tried to become a cop till he found out, like most ex-military, that your military experience doesn't really mean crap. From there he worked at a gas station, a prison security guard, and finally a truck driver.
@@ -40,7 +36,6 @@ But one day it finally happened, my dad decided it was time for me to enroll in 
 So I went to kempo for several years till the time came that we had to move to a tiny town and there was no martial arts school. From there that was pretty much the end of my budo studies till I turned nineteen and joined the army. Then in 2002 the army taught me Brazilian Jujitsu. Well I like to say they taught me the ground portion of BJJ because that's all the army teaches are the parts were you are rolling around on the ground and grappling. The army is not really willing to teach you much else unless you want to get teased and have the instructors beat the crap out of you with fighting sticks. The army combatives program is very sadistic under the guise of preparing you to kill someone.
 
 Fast forward several years and I am now getting ready to leave the army and that is leaving me with more time than what I am use to. So after many years of looking for dojos and many attempts to try to start to attend class I finally found a Sensei that is near me. I made this site mainly so that I had a creative outlet to express my thoughts.
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/66e2a5af-8a0b-4bca-a3e7-27ea2ba84e22.jpg)
 
 LINKS
 
@@ -59,7 +54,6 @@ Ninjutsu sites that I consider worthwhile.
 * [Shinobi Exchange][10] - Great store based out of Hawaii that sells high quality Gi, swords, bo, training weapons, ect.
 * [YariNoHanzo][11] - Maker of the best keikogi for ninjutsu. What I currently recommend and wear.
 * [Kage Ninja Gear][12] - Maker of tabi and leg wraps.
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/97cc5985-ed57-4351-865d-3c745851b784.jpg)
 
 [0]: http://www.bujinkan.com/
 [1]: http://templebujinkan.com/
