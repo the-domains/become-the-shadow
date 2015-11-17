@@ -4,8 +4,15 @@
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Tue, 17 Nov 2015 05:09:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2015 05:09:45 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/c3d580ae-315b-4985-8c2e-f1bd63828b3b.jpg">]]></description>
+            <link>https://thegrid.ai/become-the-shadow/db9d4f2d-49e0-4835-84b8-a2aff72ce723/index.html</link>
+            <guid isPermaLink="false">db9d4f2d-49e0-4835-84b8-a2aff72ce723</guid>
+            <pubDate>Tue, 17 Nov 2015 05:08:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/d59b3148-44a6-4f65-ba8d-10381cdf1ca0.jpg">]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/become-the-shadow/building-skill/index.html</link>
             <guid isPermaLink="false">1f8f89d0-de2f-4d17-80df-aca56da7845d</guid>
             <pubDate>Tue, 17 Nov 2015 00:15:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Slow Motion]]></title>
-            <description><![CDATA[<article><h1>Slow Motion</h1><p>Slow motion for me.</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/d91a42c0-8842-45dc-82b4-ac145138b525.png"></article>]]></description>
-            <link>https://thegrid.ai/become-the-shadow/slow-motion/index.html</link>
-            <guid isPermaLink="false">4c44d8c1-b689-447d-b78f-b2d5b7af48b5</guid>
-            <pubDate>Mon, 16 Nov 2015 23:30:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
