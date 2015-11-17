@@ -7,17 +7,17 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2015-11-17T04:53:41.826Z'
-dateModified: '2015-11-17T04:49:23.200Z'
+datePublished: '2015-11-17T04:57:30.764Z'
+dateModified: '2015-11-17T04:57:26.967Z'
 title: Takamatsu
+sourcePath: _posts/2015-11-17-takamatsu.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-17-takamatsu.md
-published: true
 _type: Blurb
 
 ---
