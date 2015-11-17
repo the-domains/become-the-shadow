@@ -3,11 +3,11 @@ inFeed: true
 hasPage: true
 inNav: false
 inLanguage: null
-starred: false
+starred: true
 keywords: []
 description: "One Man's Adventure to Become a Ninja"
-datePublished: '2015-11-17T05:10:44.728Z'
-dateModified: '2015-11-17T05:10:42.093Z'
+datePublished: '2015-11-17T05:10:50.617Z'
+dateModified: '2015-11-17T05:10:46.743Z'
 title: Become The Shadow
 sourcePath: _posts/2015-11-16-become-the-shadow.md
 published: true
