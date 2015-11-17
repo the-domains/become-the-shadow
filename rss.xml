@@ -4,8 +4,15 @@
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Tue, 17 Nov 2015 05:09:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2015 05:09:48 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/1a4b7478-62ce-4cab-b010-d047b2867597.jpg">]]></description>
+            <link>https://thegrid.ai/become-the-shadow/3a22a65a-765e-45d6-99cf-049b638ee6aa/index.html</link>
+            <guid isPermaLink="false">3a22a65a-765e-45d6-99cf-049b638ee6aa</guid>
+            <pubDate>Tue, 17 Nov 2015 05:08:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/c3d580ae-315b-4985-8c2e-f1bd63828b3b.jpg">]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/become-the-shadow/budo-isnt-life/index.html</link>
             <guid isPermaLink="false">d1c6b418-d38e-40cc-838b-3280a98486ec</guid>
             <pubDate>Tue, 17 Nov 2015 02:46:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building skill ]]></title>
-            <description><![CDATA[<article><h1>Building skill </h1><p>Building skill   Most people would agree that skill is the ability to do something with a degree of proficiency. The more proficiently you can do the thing, the</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/519e8600-e335-42e2-8875-53831abc841f.jpg"></article>]]></description>
-            <link>https://thegrid.ai/become-the-shadow/building-skill/index.html</link>
-            <guid isPermaLink="false">1f8f89d0-de2f-4d17-80df-aca56da7845d</guid>
-            <pubDate>Tue, 17 Nov 2015 00:15:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
