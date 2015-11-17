@@ -4,8 +4,15 @@
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Tue, 17 Nov 2015 04:39:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2015 05:05:19 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/e1e83f3d-a5c0-440d-ae13-c5d69e926490.png">]]></description>
+            <link>https://thegrid.ai/become-the-shadow/c6cf14ed-e94a-492e-8b9e-02fcbb17dfb5/index.html</link>
+            <guid isPermaLink="false">c6cf14ed-e94a-492e-8b9e-02fcbb17dfb5</guid>
+            <pubDate>Tue, 17 Nov 2015 05:03:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Become The Shadow]]></title>
             <description><![CDATA[<article><h1>Become The Shadow</h1><p>One Man's Adventure to Become a Ninja</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/8bd3f262-94f7-4ae5-8922-a5c1ada05407.jpg"></article>]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/become-the-shadow/haiku/index.html</link>
             <guid isPermaLink="false">7cfeca73-dd1f-49e7-ac08-db2680ee7b41</guid>
             <pubDate>Mon, 16 Nov 2015 23:25:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A Ninjutsu handbook that actually helps!]]></title>
-            <description><![CDATA[<article><h1>A Ninjutsu handbook that actually helps!</h1><p>A book review.</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/b4232ecd-521c-4bd3-9fd7-4c5d5db925a9.jpg"></article>]]></description>
-            <link>https://thegrid.ai/become-the-shadow/a-ninjutsu-handbook-that-actually-helps/index.html</link>
-            <guid isPermaLink="false">e857e667-d2ed-4929-b404-24ef9dedf521</guid>
-            <pubDate>Mon, 16 Nov 2015 23:24:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
