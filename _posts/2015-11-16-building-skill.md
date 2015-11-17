@@ -1,24 +1,24 @@
 ---
 inFeed: true
-hasPage: false
+hasPage: true
 inNav: false
-isBasedOnUrl: 'http://happobiken.com/index.php/blog/entry/building-skill'
 inLanguage: null
 starred: false
 keywords: []
 description: 'Building skill   Most people would agree that skill is the ability to do something with a degree of proficiency. The more proficiently you can do the thing, the'
-datePublished: '2015-11-16T23:37:42.138Z'
-dateModified: '2015-11-16T23:37:28.338Z'
+datePublished: '2015-11-17T00:15:47.425Z'
+dateModified: '2015-11-17T00:15:43.842Z'
 author: []
 title: "Building skill\_"
+sourcePath: _posts/2015-11-16-building-skill.md
+published: true
 authors: []
 publisher:
   name: happobiken.com
   domain: happobiken.com
   url: null
   favicon: null
-sourcePath: _posts/2015-11-16-building-skill.md
-published: true
+url: building-skill/index.html
 _context: 'http://schema.org'
 _type: Article
 
