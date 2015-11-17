@@ -4,8 +4,15 @@
         <description><![CDATA[One Man's Adventure to Become a Ninja.]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Tue, 17 Nov 2015 05:05:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2015 05:09:37 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/fb1a3a31-da65-4d65-b095-1f40c6864480.jpg">]]></description>
+            <link>https://thegrid.ai/become-the-shadow/a4e301c5-c09f-41a1-b0ec-325837a7013a/index.html</link>
+            <guid isPermaLink="false">a4e301c5-c09f-41a1-b0ec-325837a7013a</guid>
+            <pubDate>Tue, 17 Nov 2015 05:08:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/e1e83f3d-a5c0-440d-ae13-c5d69e926490.png">]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/become-the-shadow/weapons/index.html</link>
             <guid isPermaLink="false">7cce2959-7b94-42d5-bc97-851e46792a7a</guid>
             <pubDate>Mon, 16 Nov 2015 23:28:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Haiku]]></title>
-            <description><![CDATA[<article><h1>Haiku</h1><p>a haiku</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/ad84e7ac-941e-4d9c-9d39-a104d15a1d5f.png"></article>]]></description>
-            <link>https://thegrid.ai/become-the-shadow/haiku/index.html</link>
-            <guid isPermaLink="false">7cfeca73-dd1f-49e7-ac08-db2680ee7b41</guid>
-            <pubDate>Mon, 16 Nov 2015 23:25:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
