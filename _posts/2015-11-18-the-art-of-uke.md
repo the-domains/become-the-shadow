@@ -7,10 +7,10 @@ inLanguage: null
 starred: false
 keywords: []
 description: "RANTING AND RAVINGS \_ THE ART OF UKE TUESDAY, OCTOBER 27, 2015  \_ Last time, I wrote about the importance of being uke. Uke is of course the guy on the receivin"
-datePublished: '2015-11-18T13:37:50.535Z'
-dateModified: '2015-11-18T13:18:25.695Z'
+datePublished: '2015-11-18T13:43:10.072Z'
+dateModified: '2015-11-18T13:43:04.230Z'
 author: []
-title: "THE ART OF UKE\_"
+title: THE ART OF UKE
 sourcePath: _posts/2015-11-18-the-art-of-uke.md
 published: true
 authors: []
