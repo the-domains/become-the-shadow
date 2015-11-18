@@ -17,20 +17,20 @@ keywords:
   - thing
   - time
 description: 'http://happobiken.com/index.php/blog/entry/building-skill'
-datePublished: '2015-11-18T04:17:55.891Z'
-dateModified: '2015-11-18T04:17:42.860Z'
+datePublished: '2015-11-18T13:44:40.957Z'
+dateModified: '2015-11-18T13:44:37.861Z'
 author: []
 related: []
 app_links: []
 title: 'Building skill | Happobiken'
+sourcePath: _posts/2015-11-18-building-skill-or-happobiken.md
+published: true
 authors: []
 publisher:
   name: Happobiken
   domain: happobiken.com
   url: 'http://happobiken.com'
   favicon: null
-sourcePath: _posts/2015-11-18-building-skill-or-happobiken.md
-published: true
 _context: 'http://schema.org'
 _type: MediaObject
 
