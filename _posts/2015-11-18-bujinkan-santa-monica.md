@@ -17,8 +17,8 @@ keywords:
   - ninjutsu
   - soke
 description: 'Next week I will travel again to Japan for Bujinkan training. My 3rd time this year. That may seem excessive, but the experiences I enjoy each trip help me discover the "secrets" of our art. For example, here is a lesson from Hatsumi Sensei that taught me how to be a lucky ninja.'
-datePublished: '2015-11-18T13:49:27.888Z'
-dateModified: '2015-11-18T13:49:24.891Z'
+datePublished: '2015-11-18T13:53:07.256Z'
+dateModified: '2015-11-18T13:53:04.414Z'
 author:
   - name: Join me on Google+
     url: 'https://plus.google.com/109147160304044009758'
