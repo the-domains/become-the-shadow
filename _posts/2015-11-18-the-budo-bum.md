@@ -2,30 +2,30 @@
 inFeed: true
 hasPage: false
 inNav: false
-isBasedOnUrl: 'http://budobum.blogspot.com/2015/03/budo-isnt-life.html'
+isBasedOnUrl: 'http://budobum.blogspot.com/2015/08/good-budo-is-simple-that-doesnt-mean.html'
 inLanguage: en
 starred: false
 keywords:
-  - budo
-  - dojo
-  - train
-  - lessons
-  - life
+  - technique
+  - simple
   - kata
-  - good
-  - relationships
-  - applying
-  - budoka
-description: "I was reading an article about a writer who became a carpenter , but didn't stop writing, and it made me think about the mistake I sometimes see people make with budo. Budo is a Way, and as ways go, I think it is a great one."
-datePublished: '2015-11-18T13:37:24.647Z'
-dateModified: '2015-11-18T13:37:04.204Z'
+  - budo
+  - ryu
+  - muso
+  - sword
+  - shinto
+  - iai
+  - grip
+description: I had a conversation with one of my Shinto Muso Ryu students that was interesting. He was having a common issue with a core technique. He was trying to make the technique unnecessarily complicated. The technique (in this case Maki Otoshi) is difficult enough without making it complicated. Good budo is simple.
+datePublished: '2015-11-18T13:37:34.909Z'
+dateModified: '2015-11-18T13:15:34.588Z'
 author:
   - name: The Budo Bum
     url: 'https://www.blogger.com/profile/17829768452637120001'
     avatar: {}
 related: []
 app_links: []
-title: "Budo Isn't Life"
+title: "Good Budo Is Simple. That Doesn't Mean It's Easy."
 sourcePath: _posts/2015-11-18-the-budo-bum.md
 published: true
 authors: []
@@ -38,4 +38,4 @@ _context: 'http://schema.org'
 _type: MediaObject
 
 ---
-<article style=""><h1>Budo Isn't Life</h1><p>I was reading an article about a writer who became a carpenter , but didn't stop writing, and it made me think about the mistake I sometimes see people make with budo. Budo is a Way, and as ways go, I think it is a great one.</p><img src="http://3.bp.blogspot.com/-QiowuZVTIK4/VRivOh0EkmI/AAAAAAAAAfc/hMGII1uAXVk/s1600/Gri%2Bphoto%2BGirl%2Bin%2Bstation%2Bwith%2Bsword%2Bbag.jpg" /></article>
+<article style=""><h1>Good Budo Is Simple. That Doesn't Mean It's Easy.</h1><p>I had a conversation with one of my Shinto Muso Ryu students that was interesting. He was having a common issue with a core technique. He was trying to make the technique unnecessarily complicated. The technique (in this case Maki Otoshi) is difficult enough without making it complicated. Good budo is simple.</p><img src="http://2.bp.blogspot.com/-Rz4WZLm-MxE/Vcty__kp7zI/AAAAAAAAAn8/uxbJbrJMBq4/s320/16359775292_fafaac2f2a_z.jpg" /></article>
