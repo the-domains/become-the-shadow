@@ -17,8 +17,8 @@ keywords:
   - applying
   - budoka
 description: "I was reading an article about a writer who became a carpenter , but didn't stop writing, and it made me think about the mistake I sometimes see people make with budo. Budo is a Way, and as ways go, I think it is a great one."
-datePublished: '2015-11-18T13:36:54.055Z'
-dateModified: '2015-11-18T13:14:34.378Z'
+datePublished: '2015-11-18T13:37:24.647Z'
+dateModified: '2015-11-18T13:37:04.204Z'
 author:
   - name: The Budo Bum
     url: 'https://www.blogger.com/profile/17829768452637120001'
