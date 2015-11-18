@@ -1,6 +1,6 @@
 name: Become The Shadow
 favicon: null
-layout_spectrum: 0
+layout_spectrum: 0.5
 typography_spectrum: 0.03901
 title: "One Man's Adventure to Become a Ninja."
 cta:
@@ -24,6 +24,6 @@ color:
     - '#8c8c8c'
   brandStrength: 0.5
   lightness: 0.4375
-  saturation: 0.875
+  saturation: 0.8125
   rhythmicContrast: 1
 purpose: []
