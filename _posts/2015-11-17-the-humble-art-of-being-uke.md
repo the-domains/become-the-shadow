@@ -6,9 +6,9 @@ isBasedOnUrl: 'http://www.coloradospringsninjutsu.com/Blog/Entries/2015/10/23_Th
 inLanguage: null
 starred: false
 keywords: []
-description: "THE HUMBLE ART OF BEING UKE FRIDAY, OCTOBER 23, 2015  \_ Being uke is seen as a chore, which is a mistake. When you are uke, the training does not stop. For many"
-datePublished: '2015-11-18T13:39:27.972Z'
-dateModified: '2015-11-18T13:39:18.739Z'
+description: Being on the receiving end of a technique is seen as a chore. That is too limited a view. Being uke is a growth experience if you know how. And sometimes a good uke can be just as important as a good teacher.
+datePublished: '2015-11-18T13:45:47.933Z'
+dateModified: '2015-11-18T13:45:44.651Z'
 author: []
 title: "THE HUMBLE ART OF BEING UKE\_"
 sourcePath: _posts/2015-11-17-the-humble-art-of-being-uke.md
