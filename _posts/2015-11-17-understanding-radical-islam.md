@@ -6,9 +6,9 @@ isBasedOnUrl: 'http://www.coloradospringsninjutsu.com/Blog/Entries/2015/9/11_Und
 inLanguage: null
 starred: false
 keywords: []
-description: "RANTING AND RAVINGS \_ UNDERSTANDING “RADICAL” ISLAM FRIDAY, SEPTEMBER 11, 2015  \_ On this anniversary of 9-11, I want to take the time to encourage people to un"
-datePublished: '2015-11-18T13:40:42.117Z'
-dateModified: '2015-11-18T13:40:35.135Z'
+description: 'Can Islam be saved from the radicals who now seem to be in charge? Well, if you won’t read the books I highlight here, then through your apathy Islam is probably beyond salvation.'
+datePublished: '2015-11-18T13:46:18.973Z'
+dateModified: '2015-11-18T13:46:09.916Z'
 author: []
 title: UNDERSTANDING “RADICAL” ISLAM
 sourcePath: _posts/2015-11-17-understanding-radical-islam.md
