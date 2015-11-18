@@ -6,9 +6,9 @@ isBasedOnUrl: 'http://coloradospringsninjutsu.com/Blog/Entries/2015/10/27_The_Ar
 inLanguage: null
 starred: false
 keywords: []
-description: "RANTING AND RAVINGS \_ THE ART OF UKE TUESDAY, OCTOBER 27, 2015  \_ Last time, I wrote about the importance of being uke. Uke is of course the guy on the receivin"
-datePublished: '2015-11-18T13:43:10.072Z'
-dateModified: '2015-11-18T13:43:04.230Z'
+description: Being a good uke helps your partner. And there is an art to being a good uke. Last time I talked about the importance of proper attacks. This time I am going into more detail on the ways of doing proper attacks.
+datePublished: '2015-11-18T13:45:23.472Z'
+dateModified: '2015-11-18T13:45:19.246Z'
 author: []
 title: THE ART OF UKE
 sourcePath: _posts/2015-11-18-the-art-of-uke.md
