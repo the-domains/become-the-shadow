@@ -1,14 +1,13 @@
 ---
 inFeed: true
-hasPage: false
+hasPage: true
 inNav: false
-isBasedOnUrl: 'http://coloradospringsninjutsu.com/Blog/Entries/2015/10/27_The_Art_of_Uke.html'
 inLanguage: null
 starred: false
 keywords: []
 description: "RANTING AND RAVINGS \_ THE ART OF UKE TUESDAY, OCTOBER 27, 2015  \_ Last time, I wrote about the importance of being uke. Uke is of course the guy on the receivin"
-datePublished: '2015-11-18T04:20:06.314Z'
-dateModified: '2015-11-18T04:20:01.136Z'
+datePublished: '2015-11-18T04:21:16.639Z'
+dateModified: '2015-11-18T04:21:12.895Z'
 author: []
 title: "THE ART OF UKE\_"
 sourcePath: _posts/2015-11-18-the-art-of-uke.md
@@ -19,6 +18,7 @@ publisher:
   domain: coloradospringsninjutsu.com
   url: null
   favicon: null
+url: the-art-of-uke/index.html
 _context: 'http://schema.org'
 _type: Article
 
