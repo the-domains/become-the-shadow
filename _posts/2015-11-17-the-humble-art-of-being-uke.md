@@ -7,8 +7,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: Being on the receiving end of a technique is seen as a chore. That is too limited a view. Being uke is a growth experience if you know how. And sometimes a good uke can be just as important as a good teacher.
-datePublished: '2015-11-18T13:51:02.342Z'
-dateModified: '2015-11-18T13:50:57.838Z'
+datePublished: '2015-11-20T04:34:38.931Z'
+dateModified: '2015-11-20T04:34:35.928Z'
 author: []
 title: THE HUMBLE ART OF BEING UKE
 sourcePath: _posts/2015-11-17-the-humble-art-of-being-uke.md
@@ -24,3 +24,5 @@ _type: Article
 
 ---
 # ![Being on the receiving end of a technique is seen as a chore. That is too limited a view. Being uke is a growth experience if you know how. And sometimes a good uke can be just as important as a good teacher.](https://the-grid-user-content.s3-us-west-2.amazonaws.com/d279389e-ef03-4f0d-bd2e-6aa36385efee.png)
+
+# THE HUMBLE ART OF BEING UKE
