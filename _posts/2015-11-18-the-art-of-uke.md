@@ -7,10 +7,10 @@ inLanguage: null
 starred: false
 keywords: []
 description: Being a good uke helps your partner. And there is an art to being a good uke. Last time I talked about the importance of proper attacks. This time I am going into more detail on the ways of doing proper attacks.
-datePublished: '2015-11-20T04:24:51.748Z'
-dateModified: '2015-11-20T04:22:26.263Z'
+datePublished: '2015-11-20T04:31:33.219Z'
+dateModified: '2015-11-20T04:31:32.328Z'
 author: []
-title: THE ART OF UKE
+title: The Art of Uke
 sourcePath: _posts/2015-11-18-the-art-of-uke.md
 published: true
 authors: []
@@ -24,3 +24,5 @@ _type: Article
 
 ---
 # ![Being a good uke helps your partner. And there is an art to being a good uke. Last time I talked about the importance of proper attacks. This time I am going into more detail on the ways of doing proper attacks.](https://the-grid-user-content.s3-us-west-2.amazonaws.com/c34abf0a-f1cc-4f87-90d2-108d4da5a276.png)
+
+# The Art of Uke
