@@ -6,11 +6,12 @@ inLanguage: null
 starred: true
 keywords: []
 description: "One Man's Adventure to Become a Ninja"
-datePublished: '2015-11-17T14:52:53.781Z'
-dateModified: '2015-11-17T14:52:50.501Z'
+datePublished: '2015-11-20T13:49:17.488Z'
+dateModified: '2015-11-20T13:49:14.797Z'
 title: Become The Shadow
 sourcePath: _posts/2015-11-16-become-the-shadow.md
 published: true
+author: []
 authors: []
 publisher:
   name: null
