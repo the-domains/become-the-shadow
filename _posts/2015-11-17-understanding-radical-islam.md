@@ -7,8 +7,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: 'Can Islam be saved from the radicals who now seem to be in charge? Well, if you won’t read the books I highlight here, then through your apathy Islam is probably beyond salvation.'
-datePublished: '2015-11-18T13:46:18.973Z'
-dateModified: '2015-11-18T13:46:09.916Z'
+datePublished: '2015-11-20T04:27:50.594Z'
+dateModified: '2015-11-18T13:51:41.519Z'
 author: []
 title: UNDERSTANDING “RADICAL” ISLAM
 sourcePath: _posts/2015-11-17-understanding-radical-islam.md
