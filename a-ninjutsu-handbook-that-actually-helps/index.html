@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>A Ninjutsu handbook that actually helps! - Become The Shadow</title><link href="../rss.xml" title="One Man's Adventure to Become a Ninja. feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.25"><meta name="the-grid-solution" content="c0685801-f3c0-437d-a0bb-e8331075a5b6"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>A Ninjutsu handbook that actually helps! - Become The Shadow</title><link href="../rss.xml" title="One Man's Adventure to Become a Ninja. feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.17.3"><meta name="the-grid-solution" content="16bb9b16-6fc7-4343-a58e-24cc474ac75b"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -202,6 +202,14 @@ body {
 }
 .stack {
   z-index: 1;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+}
+.group,
+.aside,
+.decoration {
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
 }
 picture {
   display: inline-block;
@@ -250,6 +258,9 @@ a:active {
   transition: color 0.1s ease-in, background-color 0.1s ease-out;
   -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
 }
+a.aside {
+  display: inline-block;
+}
 html.exporting a {
   transition: none;
 }
@@ -259,11 +270,21 @@ html.exporting a {
 .media > a {
   display: inline-block;
 }
+.media iframe {
+  transition: 0.3s opacity ease-in;
+  -webkit-transition: 0.3s opacity ease-in;
+}
 h1 a,
 h2 a,
 h3 a {
   font-weight: inherit;
   letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .text-decoration {
   -webkit-box-decoration-break: clone;
@@ -277,36 +298,50 @@ h3 a {
   margin-left: 1.5em;
 }
 .decoration {
-  position: relative;
   pointer-events: none;
+}
+.svg {
+  position: relative;
   background-color: currentColor;
 }
-.decoration > svg {
+.svg > svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.decoration.connector > svg {
+.svg.connector > svg {
   width: 109%;
   height: 109%;
   margin-left: -2%;
 }
-.decoration path,
-.decoration ellipse,
-.decoration rect,
-.decoration polygon,
-.decoration circle {
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
   fill: currentColor;
 }
-.decoration mpath,
-.decoration line,
-.decoration polyline {
+.svg mpath,
+.svg line,
+.svg polyline {
   stroke: currentColor;
 }
-.svg.decoration {
+.svg {
   background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
 }
 .colors-style-aside-border .publisher,
 .colors-style-aside-border .author {
@@ -449,12 +484,13 @@ ul {
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.164rem; line-height: 0.244rem; height: 8.784rem; width: 4.084rem; position: absolute; top: 0.244rem; left: 0.124rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 3.364rem; height: 3.504rem; position: absolute; top: 2.094rem; left: 0.364rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 3.364rem; height: 3.504rem; position: absolute; top: 2.094rem; left: 0.124rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 4.604rem; width: 3.364rem; position: absolute; top: -0.544rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.524rem; line-height: 0.684rem; width: 3.844rem; position: absolute; top: 0rem; left: 0.124rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 3.844rem; position: absolute; left: 0.124rem; top: 5.644rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.474rem; line-height: 0.414rem; padding-top: 0.054rem; padding-right: 0.054rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -566,12 +602,13 @@ display: none;
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.164rem; line-height: 0.244rem; height: 7.194rem; width: 6.124rem; position: absolute; top: 0.364rem; left: 0.184rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 5.044rem; height: 3.504rem; position: absolute; top: 1.444rem; left: 0.544rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 5.044rem; height: 3.504rem; position: absolute; top: 1.444rem; left: 0.184rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 6.904rem; width: 5.044rem; position: absolute; top: -1.694rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.524rem; line-height: 0.684rem; width: 5.764rem; position: absolute; top: 0rem; left: 0.184rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 5.764rem; position: absolute; left: 0.184rem; top: 5.014rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.474rem; line-height: 0.414rem; padding-top: 0.054rem; padding-right: 0.054rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -677,12 +714,13 @@ display: none;
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.164rem; line-height: 0.244rem; height: 9rem; width: 6.734rem; position: absolute; top: 0.484rem; left: 0.964rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 3.364rem; height: 3.504rem; position: absolute; top: 2.204rem; left: 1.694rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 3.364rem; height: 3.504rem; position: absolute; top: 2.204rem; left: 1.444rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 4.604rem; width: 3.364rem; position: absolute; top: -0.544rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.524rem; line-height: 0.684rem; width: 3.854rem; position: absolute; top: 0.064rem; left: 1.444rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 3.854rem; position: absolute; left: 1.444rem; top: 5.804rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.474rem; line-height: 0.414rem; padding-top: 0.054rem; padding-right: 0.054rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -789,12 +827,13 @@ display: none;
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.164rem; line-height: 0.244rem; height: 7.514rem; width: 10.094rem; position: absolute; top: 0.724rem; left: 1.444rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 5.044rem; height: 3.504rem; position: absolute; top: 1.604rem; left: 2.524rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 5.044rem; height: 3.504rem; position: absolute; top: 1.604rem; left: 2.164rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 6.904rem; width: 5.044rem; position: absolute; top: -1.694rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.524rem; line-height: 0.684rem; width: 5.774rem; position: absolute; top: 0.094rem; left: 2.164rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 5.774rem; position: absolute; left: 2.164rem; top: 5.244rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.474rem; line-height: 0.414rem; padding-top: 0.054rem; padding-right: 0.054rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -901,12 +940,13 @@ display: none;
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.204rem; line-height: 0.304rem; height: 8.514rem; width: 12.604rem; position: absolute; top: 0.904rem; left: 1.804rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 6.304rem; height: 3.504rem; position: absolute; top: 2rem; left: 3.154rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 6.304rem; height: 3.504rem; position: absolute; top: 2rem; left: 2.704rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 8.614rem; width: 6.304rem; position: absolute; top: -2.554rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.654rem; line-height: 0.854rem; width: 7.204rem; position: absolute; top: 0.124rem; left: 2.704rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.204rem; line-height: 0.304rem; width: 7.204rem; position: absolute; left: 2.704rem; top: 5.684rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.584rem; line-height: 0.514rem; padding-top: 0.064rem; padding-right: 0.064rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -1013,12 +1053,13 @@ display: none;
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed >.text.paragraph p:first-child .first-letter { float: left; font-weight: bold; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 >.group.mixed { text-align: left; }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed{font-size: 0.154rem; line-height: 0.234rem; height: 7rem; width: 12.604rem; position: absolute; top: 0.904rem; left: 1.804rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 6.304rem; height: 3.504rem; position: absolute; top: 1.584rem; left: 3.154rem;}
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover{overflow: hidden; width: 6.304rem; height: 3.504rem; position: absolute; top: 1.584rem; left: 2.704rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img{height: 8.624rem; width: 6.304rem; position: absolute; top: -2.554rem; left: 0rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline{font-size: 0.494rem; line-height: 0.644rem; width: 7.204rem; position: absolute; top: 0.124rem; left: 2.704rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph{font-size: 0.154rem; line-height: 0.234rem; width: 7.204rem; position: absolute; left: 2.704rem; top: 5.264rem;}
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph>p:nth-of-type(1)>span:nth-of-type(1){font-size: 0.444rem; line-height: 0.394rem; padding-top: 0.054rem; padding-right: 0.054rem;}
-#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .media.cover { background-image: linear-gradient(rgb(229, 25, 11), rgb(255, 255, 255)); color: rgb(0, 0, 0); }
+#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed :hover.media.cover { color: rgb(222, 35, 20); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline { color: rgb(255, 255, 255); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .title.headline a:hover { color: rgb(166, 166, 166); }
 #u-e0937f7c-4ce1-475c-ab2e-efc73cb32754#u-e0937f7c-4ce1-475c-ab2e-efc73cb32754 .group.mixed > .text.paragraph { color: rgb(255, 255, 255); }
@@ -1108,7 +1149,7 @@ display: none;
             </g>
         </g>
     </g>
-</svg></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full aspect_natural line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack mixed i first_chapter w_cover w_media w_headline w_title w_paragraph w_text w_decoration media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text stack mixed" itemid="e0937f7c-4ce1-475c-ab2e-efc73cb32754" itemtype="text" diff_index="0" index="mixed" kind="stack" score="8.75" missed="0.25" tag="article" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754"><div kind="group" index="mixed" class="group mixed group mixed" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed"><a kind="media" index="cover" class="vfld media cover media cover" specificity="0.25" itemprop="cover" max-width="256" max-height="350" href="https://s3-us-west-2.amazonaws.com/the-grid-img/p/93c42275a91d943612c442195960c878a601e536.jpg" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover"><picture id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img" class=""><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1441px) and (min-width: 1441px) and (max-width: 1799px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1441px) and (min-width: 1800px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 721px) and (min-width: 721px) and (max-width: 960px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 721px) and (min-width: 961px) and (max-width: 1440px)" /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1px) and (max-width: 480px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1px) and (min-width: 481px) and (max-width: 720px)" /><!--[if IE 9]></video><![endif]--><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="  /></picture></a><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline"><span class="text-decoration" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline-span">A Ninjutsu <wbr class="w480 w960"></wbr>handbook <wbr class="w481 w961 w1799"></wbr>that <wbr class="w480 w960 w1800"></wbr>actually helps!</span></h1><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph"><p><span class="first-letter">N</span><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>ow I have expressed it before and I will more <wbr class="w480"></wbr>than <wbr class="w960"></wbr>likely express it again, I <wbr class="w1799"></wbr>do <wbr class="w481 w961"></wbr>not like trying to <wbr class="w480"></wbr>learn <wbr class="w960 w1800"></wbr>martial arts from a book. It is so easy look at <wbr class="w480 w481 w960 w961 w1799"></wbr>something and then think you know what the move or <wbr class="w480 w960 w1800"></wbr>kata is and you end up <wbr class="w481 w961 w1799"></wbr>missing a very important part. <wbr class="w480 w960"></wbr>Over the years I have met several so called library <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>martial arts masters. Oh they studied from this book <wbr class="w480 w960"></wbr>and that book and they <wbr class="w1799"></wbr>have <wbr class="w481 w961"></wbr>practice so much, but <wbr class="w480 w960 w1800"></wbr>when it really comes down to it they have no idea <wbr class="w480 w1799"></wbr>what <wbr class="w960"></wbr>they <wbr class="w481 w961"></wbr>are doing. That doesn&#x2019;t really stop people in <wbr class="w480 w1800"></wbr>this <wbr class="w960"></wbr>day and age anymore. <wbr class="w1799"></wbr>Many <wbr class="w481 w961"></wbr>people take no pride <wbr class="w480"></wbr>in <wbr class="w960"></wbr>what they do, they just want a title of black belt or <wbr class="w480 w960 w1799 w1800"></wbr>master, <wbr class="w481 w961"></wbr>but that&#x2019;s a topic for another time.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="84bf255f-8810-4280-a643-19599779d514" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-84bf255f-8810-4280-a643-19599779d514"><div kind="group" index="column" class="group column group column" id="u-84bf255f-8810-4280-a643-19599779d514-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-84bf255f-8810-4280-a643-19599779d514-g-column-t-paragraph"><p><span class="first-letter"> </span>With all that said this book made me understand <wbr class="w480 w960"></wbr>something, that if a book is <wbr class="w481 w1799"></wbr>done <wbr class="w961"></wbr>right it can be a great <wbr class="w480 w960 w1800"></wbr>tool for learning a martial art. Mind you I said tool, not <wbr class="w480 w481 w960 w961 w1799"></wbr>guide. Even as good as this book is I still wouldn&#x2019;t <wbr class="w480 w960 w1800"></wbr>want to try and learn from it <wbr class="w481 w961 w1799"></wbr>alone. With that said this <wbr class="w480 w960"></wbr>book is the best I have seen for any martial arts <wbr class="w480 w1800"></wbr>books.</p><p><span class="first-letter"> </span><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>No black and white photos that are hard to tell what is <wbr class="w480 w960"></wbr>going on. The type doesn&#x2019;t <wbr class="w481 w961 w1799"></wbr>look like it&#x2019;s the 30th copy <wbr class="w480 w960 w1800"></wbr>off of a Xerox machine. All the photos are in color and <wbr class="w480 w481 w960 w961 w1799"></wbr>take up most the almost every page. Every move and <wbr class="w480 w960 w1800"></wbr>kata looks like it was taken <wbr class="w481 w961 w1799"></wbr>with a high speed camera <wbr class="w480 w960"></wbr>and they went through and took out the best stills. As <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>you go along there are small text portions that explain <wbr class="w480 w960"></wbr>small details of what you <wbr class="w481 w961 w1799"></wbr>should be doing. These are <wbr class="w480 w960 w1800"></wbr>the items that you normally miss with the old martial <wbr class="w480 w481 w960 w961 w1799"></wbr>arts books.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="bcec3254-5afc-4ce3-b22b-f4b3470687a1" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1"><div kind="group" index="column" class="group column group column" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1-g-column-t-paragraph"><p><span class="first-letter"> </span>It&#x2019;s not just the quality of the book that makes it worth <wbr class="w480 w960"></wbr>it, it is also the info that it <wbr class="w481 w961 w1799"></wbr>contains. If you look at <wbr class="w480 w960 w1800"></wbr>many ninjutsu and Bujinkan books you will quickly <wbr class="w480 w960"></wbr>realize <wbr class="w481 w961 w1799"></wbr>small things like the fact that a ton of them will <wbr class="w480 w960 w1800"></wbr>list the 9 schools of the Bujinkan <wbr class="w481 w961 w1799"></wbr>but not many of <wbr class="w480 w960"></wbr>them explain what the schools teach. This book also <wbr class="w480 w960"></wbr>has <wbr class="w481 w961 w1799 w1800"></wbr>information on many aspects of Bujinkan that are <wbr class="w480 w960"></wbr>missed by many dojos, books, <wbr class="w481 w961 w1799"></wbr>and courses. So few of <wbr class="w480 w960"></wbr>our <wbr class="w1800"></wbr>resources go into talking anything about stealth, <wbr class="w480 w481 w960 w961 w1799"></wbr>medicine, climbing, etc. You know the skills that <wbr class="w480 w960"></wbr>played <wbr class="w1800"></wbr>95% of a Shinobi No <wbr class="w481 w961 w1799"></wbr>Mono actual job. Last <wbr class="w480 w960"></wbr>thing I will say about the content is that most the time <wbr class="w480 w960"></wbr>you <wbr class="w481 w961 w1799"></wbr>have <wbr class="w1800"></wbr>to buy a book about empty hand fighting, <wbr class="w480 w960"></wbr>then you would have to get <wbr class="w481 w961 w1799"></wbr>another book for a type of <wbr class="w480 w960"></wbr>weapon, and <wbr class="w1800"></wbr>then another book for another type of <wbr class="w480 w481 w960 w961 w1799"></wbr>weapon. This book covers the basics of almost every <wbr class="w480 w960"></wbr>Bujinkan style.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="7856acab-6a01-43f5-8165-e4817518996b" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-7856acab-6a01-43f5-8165-e4817518996b"><div kind="group" index="column" class="group column group column" id="u-7856acab-6a01-43f5-8165-e4817518996b-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-7856acab-6a01-43f5-8165-e4817518996b-g-column-t-paragraph"><p><span class="first-letter"> </span>So to sum up this book is great for beginners like <wbr class="w480 w960"></wbr>myself as a reference. I have <wbr class="w481 w961 w1799"></wbr>already used it while <wbr class="w480 w960 w1800"></wbr>practicing a topic we covered in class. How did that <wbr class="w480 w960"></wbr>kata go <wbr class="w481 w961 w1799"></wbr>again? I&#x2019;ll just look it up in the book. What was <wbr class="w480 w960 w1800"></wbr>that stance called? I&#x2019;ll look it up in <wbr class="w481 w961 w1799"></wbr>the book. Hell I <wbr class="w480"></wbr>used <wbr class="w960"></wbr>it to figure out how to spell a Japanese word <wbr class="w480"></wbr>using <wbr class="w960 w1800"></wbr>English <wbr class="w481 w961 w1799"></wbr>letters. Don&#x2019;t try to learn everything from <wbr class="w480"></wbr>it, use <wbr class="w960"></wbr>it like a text book, you reference <wbr class="w481 w961 w1799"></wbr>from it. Twenty <wbr class="w480 w1800"></wbr>bucks <wbr class="w960"></wbr>well spent.</p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_medium_headline w_medium_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading"><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading-t-headline-a">One Man's Adventure to <wbr class="w480"></wbr>Become a <wbr class="w481"></wbr>Ninja. feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_cover w_media w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_trailer media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text w_medium_paragraph w_medium_text layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-3-l-one"></div><style id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-color">body{background-color: rgba(32, 22, 21, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_cover w_media w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_trailer media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text w_medium_paragraph w_medium_text layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-3-l-one"></div><style id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-color">body{background-color: rgba(32, 22, 21, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+</svg></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full aspect_natural line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack mixed i first_chapter w_cover w_media w_headline w_title w_paragraph w_text w_decoration media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text stack mixed" itemid="e0937f7c-4ce1-475c-ab2e-efc73cb32754" itemtype="text" diff_index="0" index="mixed" kind="stack" score="4.75" missed="0.25" tag="article" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754"><div kind="group" index="mixed" class="group mixed group mixed" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed"><a kind="media" index="cover" class="vfld media cover media cover" specificity="0.25" itemprop="cover" max-width="256" max-height="350" href="https://s3-us-west-2.amazonaws.com/the-grid-img/p/93c42275a91d943612c442195960c878a601e536.jpg" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover"><picture id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-m-cover-img" class=""><!--[if IE 9]><video style="display: none;"><![endif]--><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1441px) and (min-width: 1441px) and (max-width: 1799px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1441px) and (min-width: 1800px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 721px) and (min-width: 721px) and (max-width: 960px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 721px) and (min-width: 961px) and (max-width: 1440px)" /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1px) and (max-width: 480px) " /><source srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/7481ba46113d96e4a4b825e2dcdfc5f8/passthrough.jpg?height=350&input=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fthe-grid-img%2Fp%2F93c42275a91d943612c442195960c878a601e536.jpg&width=256 2x" media="(min-width: 1px) and (min-width: 481px) and (max-width: 720px)" /><!--[if IE 9]></video><![endif]--><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="  /></picture></a><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline"><span class="text-decoration" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-headline-span">A Ninjutsu <wbr class="w480 w960"></wbr>handbook <wbr class="w481 w961 w1799"></wbr>that <wbr class="w480 w960 w1800"></wbr>actually helps!</span></h1><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-e0937f7c-4ce1-475c-ab2e-efc73cb32754-g-mixed-t-paragraph"><p><span class="first-letter">N</span><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>ow I have expressed it before and I will more <wbr class="w480"></wbr>than <wbr class="w960"></wbr>likely express it again, I <wbr class="w1799"></wbr>do <wbr class="w481 w961"></wbr>not like trying to <wbr class="w480"></wbr>learn <wbr class="w960 w1800"></wbr>martial arts from a book. It is so easy look at <wbr class="w480 w481 w960 w961 w1799"></wbr>something and then think you know what the move or <wbr class="w480 w960 w1800"></wbr>kata is and you end up <wbr class="w481 w961 w1799"></wbr>missing a very important part. <wbr class="w480 w960"></wbr>Over the years I have met several so called library <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>martial arts masters. Oh they studied from this book <wbr class="w480 w960"></wbr>and that book and they <wbr class="w1799"></wbr>have <wbr class="w481 w961"></wbr>practice so much, but <wbr class="w480 w960 w1800"></wbr>when it really comes down to it they have no idea <wbr class="w480 w1799"></wbr>what <wbr class="w960"></wbr>they <wbr class="w481 w961"></wbr>are doing. That doesn&#x2019;t really stop people in <wbr class="w480 w1800"></wbr>this <wbr class="w960"></wbr>day and age anymore. <wbr class="w1799"></wbr>Many <wbr class="w481 w961"></wbr>people take no pride <wbr class="w480"></wbr>in <wbr class="w960"></wbr>what they do, they just want a title of black belt or <wbr class="w480 w960 w1799 w1800"></wbr>master, <wbr class="w481 w961"></wbr>but that&#x2019;s a topic for another time.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="84bf255f-8810-4280-a643-19599779d514" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-84bf255f-8810-4280-a643-19599779d514"><div kind="group" index="column" class="group column group column" id="u-84bf255f-8810-4280-a643-19599779d514-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-84bf255f-8810-4280-a643-19599779d514-g-column-t-paragraph"><p><span class="first-letter"> </span>With all that said this book made me understand <wbr class="w480 w960"></wbr>something, that if a book is <wbr class="w481 w1799"></wbr>done <wbr class="w961"></wbr>right it can be a great <wbr class="w480 w960 w1800"></wbr>tool for learning a martial art. Mind you I said tool, not <wbr class="w480 w481 w960 w961 w1799"></wbr>guide. Even as good as this book is I still wouldn&#x2019;t <wbr class="w480 w960 w1800"></wbr>want to try and learn from it <wbr class="w481 w961 w1799"></wbr>alone. With that said this <wbr class="w480 w960"></wbr>book is the best I have seen for any martial arts <wbr class="w480 w1800"></wbr>books.</p><p><span class="first-letter"> </span><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>No black and white photos that are hard to tell what is <wbr class="w480 w960"></wbr>going on. The type doesn&#x2019;t <wbr class="w481 w961 w1799"></wbr>look like it&#x2019;s the 30th copy <wbr class="w480 w960 w1800"></wbr>off of a Xerox machine. All the photos are in color and <wbr class="w480 w481 w960 w961 w1799"></wbr>take up most the almost every page. Every move and <wbr class="w480 w960 w1800"></wbr>kata looks like it was taken <wbr class="w481 w961 w1799"></wbr>with a high speed camera <wbr class="w480 w960"></wbr>and they went through and took out the best stills. As <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>you go along there are small text portions that explain <wbr class="w480 w960"></wbr>small details of what you <wbr class="w481 w961 w1799"></wbr>should be doing. These are <wbr class="w480 w960 w1800"></wbr>the items that you normally miss with the old martial <wbr class="w480 w481 w960 w961 w1799"></wbr>arts books.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="bcec3254-5afc-4ce3-b22b-f4b3470687a1" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1"><div kind="group" index="column" class="group column group column" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-bcec3254-5afc-4ce3-b22b-f4b3470687a1-g-column-t-paragraph"><p><span class="first-letter"> </span>It&#x2019;s not just the quality of the book that makes it worth <wbr class="w480 w960"></wbr>it, it is also the info that it <wbr class="w481 w961 w1799"></wbr>contains. If you look at <wbr class="w480 w960 w1800"></wbr>many ninjutsu and Bujinkan books you will quickly <wbr class="w480 w960"></wbr>realize <wbr class="w481 w961 w1799"></wbr>small things like the fact that a ton of them will <wbr class="w480 w960 w1800"></wbr>list the 9 schools of the Bujinkan <wbr class="w481 w961 w1799"></wbr>but not many of <wbr class="w480 w960"></wbr>them explain what the schools teach. This book also <wbr class="w480 w960"></wbr>has <wbr class="w481 w961 w1799 w1800"></wbr>information on many aspects of Bujinkan that are <wbr class="w480 w960"></wbr>missed by many dojos, books, <wbr class="w481 w961 w1799"></wbr>and courses. So few of <wbr class="w480 w960"></wbr>our <wbr class="w1800"></wbr>resources go into talking anything about stealth, <wbr class="w480 w481 w960 w961 w1799"></wbr>medicine, climbing, etc. You know the skills that <wbr class="w480 w960"></wbr>played <wbr class="w1800"></wbr>95% of a Shinobi No <wbr class="w481 w961 w1799"></wbr>Mono actual job. Last <wbr class="w480 w960"></wbr>thing I will say about the content is that most the time <wbr class="w480 w960"></wbr>you <wbr class="w481 w961 w1799"></wbr>have <wbr class="w1800"></wbr>to buy a book about empty hand fighting, <wbr class="w480 w960"></wbr>then you would have to get <wbr class="w481 w961 w1799"></wbr>another book for a type of <wbr class="w480 w960"></wbr>weapon, and <wbr class="w1800"></wbr>then another book for another type of <wbr class="w480 w481 w960 w961 w1799"></wbr>weapon. This book covers the basics of almost every <wbr class="w480 w960"></wbr>Bujinkan style.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="7856acab-6a01-43f5-8165-e4817518996b" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-7856acab-6a01-43f5-8165-e4817518996b"><div kind="group" index="column" class="group column group column" id="u-7856acab-6a01-43f5-8165-e4817518996b-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-7856acab-6a01-43f5-8165-e4817518996b-g-column-t-paragraph"><p><span class="first-letter"> </span>So to sum up this book is great for beginners like <wbr class="w480 w960"></wbr>myself as a reference. I have <wbr class="w481 w961 w1799"></wbr>already used it while <wbr class="w480 w960 w1800"></wbr>practicing a topic we covered in class. How did that <wbr class="w480 w960"></wbr>kata go <wbr class="w481 w961 w1799"></wbr>again? I&#x2019;ll just look it up in the book. What was <wbr class="w480 w960 w1800"></wbr>that stance called? I&#x2019;ll look it up in <wbr class="w481 w961 w1799"></wbr>the book. Hell I <wbr class="w480"></wbr>used <wbr class="w960"></wbr>it to figure out how to spell a Japanese word <wbr class="w480"></wbr>using <wbr class="w960 w1800"></wbr>English <wbr class="w481 w961 w1799"></wbr>letters. Don&#x2019;t try to learn everything from <wbr class="w480"></wbr>it, use <wbr class="w960"></wbr>it like a text book, you reference <wbr class="w481 w961 w1799"></wbr>from it. Twenty <wbr class="w480 w1800"></wbr>bucks <wbr class="w960"></wbr>well spent.</p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_medium_headline w_medium_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading"><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-alternate-g-heading-t-headline-a">One Man's Adventure to <wbr class="w480"></wbr>Become a <wbr class="w481"></wbr>Ninja. feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_cover w_media w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_trailer media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text w_medium_paragraph w_medium_text layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-desktop-l-one-3-l-one"></div><style id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-color">body{background-color: rgba(32, 22, 21, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_cover w_media w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_trailer media_lt_narrow media_lt_half media_lt_wide media_lt_full media_portrait crop_true w_medium_headline w_medium_title w_long_paragraph w_long_text w_medium_paragraph w_medium_text layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-cinema-l-one-3-l-one"></div><style id="u-9e5ae491-1acd-4563-a91f-12f5ab6997e7-color">body{background-color: rgba(32, 22, 21, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*! Hammer.JS - v1.1.3 - 2014-05-20
  * http://eightmedia.github.io/hammer.js
  *
@@ -1635,9 +1676,11 @@ global.Hamburger = require('./hamburger');
 
 global.Highlighter = require('./highlighter');
 
+global.Player = require('./player');
+
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
+},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"./player":8,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
 var appendPage, mainpage, page, ref, ref1, urls;
 
 page = require('./reflow');
@@ -1738,7 +1781,192 @@ module.exports = function() {
 };
 
 
-},{"./reflow":8}],8:[function(require,module,exports){
+},{"./reflow":9}],8:[function(require,module,exports){
+var Player, Youtube, iframe, revealed, rgb2hex;
+
+iframe = null;
+
+Youtube = null;
+
+Player = function(id, src, width, height, color, bg) {
+  if (src.indexOf('youtube') > -1) {
+    src += '&color=white&theme=light&modestbranding=1';
+  }
+  src = src.replace('COLOR', color).replace('BG', bg);
+  if (location.protocol !== 'https:') {
+    src = src.replace('https:', 'http:');
+  }
+  iframe = document.createElement('iframe');
+  iframe.id = id;
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = src;
+  iframe.width = width;
+  iframe.height = height;
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.left = 0;
+  iframe.style.right = 0;
+  iframe.style.position = 'absolute';
+  iframe.style.opacity = 0.2;
+  iframe.onload = function() {
+    return iframe.style.opacity = 1;
+  };
+  return iframe;
+};
+
+revealed = null;
+
+Player.reveal = function(iframe) {
+  var diff, i, left, len, parent, play, ref, ref1, sibling, target, top, translateX, translateY;
+  while (target = (target || iframe).parentNode) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (target.parentNode.classList.contains('group')) {
+        parent = target.parentNode;
+      } else {
+        parent = target;
+      }
+      revealed = iframe;
+      play = parent.getElementsByClassName('play')[0];
+      left = target.offsetWidth - play.offsetLeft - play.offsetWidth;
+      top = -play.offsetTop;
+      play.style.webkitTransformOrigin = 'top right';
+      play.style.webkitTransform = 'translateX(' + left + 'px) translateY(' + top + 'px) scale(0.5)';
+      target.classList.add('revealed');
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        if (sibling.nodeType === 1 && sibling !== parent) {
+          translateX = translateY = null;
+          if ((diff = sibling.offsetLeft + sibling.offsetWidth - parent.offsetLeft) > 2 && parent.offsetLeft >= sibling.offsetLeft) {
+            translateX = -diff;
+          }
+          if ((diff = target.offsetLeft + target.offsetWidth - sibling.offsetLeft) > 2 && parent.offsetLeft <= sibling.offsetLeft) {
+            if (!translateX || Math.abs(diff) < Math.abs(translateX)) {
+              translateX = diff;
+            }
+          }
+          if ((diff = sibling.offsetTop + sibling.offsetHeight - parent.offsetTop) > 2 && parent.offsetTop >= sibling.offsetTop) {
+            translateY = -diff;
+          }
+          if ((diff = target.offsetTop + target.offsetHeight - sibling.offsetTop) > 2 && parent.offsetTop <= sibling.offsetTop) {
+            if (!translateY || Math.abs(diff) < Math.abs(translateY)) {
+              translateY = diff;
+            }
+          }
+          if (Math.abs(translateX) > Math.abs(translateY)) {
+            sibling.style.webkitTransform = 'translateY(' + translateY + 'px)';
+          } else {
+            sibling.style.webkitTransform = 'translateX(' + translateX + 'px)';
+          }
+          console.log(translateX, translateY, sibling);
+        }
+      }
+    }
+  }
+};
+
+Player.hide = function(iframe) {
+  var i, len, parent, play, ref, ref1, sibling;
+  while (parent = (parent || iframe).parentNode) {
+    if ((ref = parent.classList) != null ? ref.contains('revealed') : void 0) {
+      parent.classList.remove('revealed');
+      if (parent.parentNode.classList.contains('group')) {
+        parent = parent.parentNode;
+      }
+      play = parent.getElementsByClassName('play')[0];
+      play.style.webkitTransform = '';
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        sibling.style.webkitTransform = '';
+      }
+    }
+  }
+  return revealed = null;
+};
+
+window.addEventListener('resize', function() {
+  return setTimeout(function() {
+    return requestAnimationFrame(function() {
+      if (revealed) {
+        if (revealed.offsetWidth) {
+          return Player.reveal(revealed);
+        } else {
+          return Player.stop(revealed);
+        }
+      }
+    });
+  }, 10);
+});
+
+Player.stop = function(iframe) {
+  var old;
+  old = iframe;
+  iframe.style.opacity = 0;
+  setTimeout(function() {
+    var ref;
+    return (ref = old.parentNode) != null ? ref.removeChild(old) : void 0;
+  }, 300);
+  Player.hide(iframe);
+  return iframe = null;
+};
+
+document.addEventListener('click', function(e) {
+  var bg, color, header, parent, play, ref, ref1, results, styles, target;
+  target = e.target;
+  results = [];
+  while (target) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (play = target.getElementsByClassName('play')[0]) {
+        if ((iframe != null ? iframe.parentNode : void 0) === target) {
+          Player.stop(iframe);
+        } else {
+          if (iframe) {
+            Player.stop(iframe);
+          }
+          color = bg = null;
+          header = (ref1 = target.parentNode.parentNode.getElementsByClassName('title')[0]) != null ? ref1.firstChild : void 0;
+          parent = header || play;
+          while (parent) {
+            if (parent.nodeType === 1) {
+              styles = window.getComputedStyle(parent);
+              if (styles.color.indexOf('rgba') === -1 || !styles.color.match(/,\s*0\)/)) {
+                if (color == null) {
+                  color = styles.color;
+                }
+              }
+              if (styles['background-color'].indexOf('rgba') === -1 || !styles['background-color'].match(/,\s*0\)/)) {
+                if (bg == null) {
+                  bg = styles['background-color'];
+                }
+              }
+            }
+            parent = parent.parentNode;
+          }
+          iframe = Player(play.id + '-player', play.getAttribute('data-src'), play.getAttribute('data-width'), play.getAttribute('data-height'), rgb2hex(color), rgb2hex(bg));
+          target.appendChild(iframe);
+          Player.reveal(iframe);
+        }
+        e.preventDefault();
+        break;
+      }
+    }
+    results.push(target = target.parentNode);
+  }
+  return results;
+});
+
+rgb2hex = function(rgb) {
+  rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  if (rgb && rgb.length === 4) {
+    return ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2);
+  }
+};
+
+window.exports = window.Player = Player;
+
+
+},{}],9:[function(require,module,exports){
 module.exports = {
   reflow: function(container) {
     var counter, heights, hidden, hole, holed, holes, i, id, ids, index, j, k, l, last, layout, layouts, len, len1, len2, len3, m, mutations, name, node, ref, ref1, ref2, stack, stacks;
@@ -2003,7 +2231,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.8/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
