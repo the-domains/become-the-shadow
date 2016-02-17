@@ -1,29 +1,41 @@
-name: Become The Shadow
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.10057
 title: "One Man's Adventure to Become a Ninja."
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: UA-70292614-1
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.75
+  brandStrength: 0.5
+  rhythmicContrast: 1
   brandColors:
     - '#de1000'
     - '#ffffff'
     - '#000000'
     - '#383838'
     - '#8c8c8c'
-  brandStrength: 0.5
   lightness: 0.4375
-  saturation: 0.75
-  rhythmicContrast: 1
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: UA-70292614-1
+  facebook: null
+name: Become The Shadow
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.10057
+layout_spectrum: 0.5358423
