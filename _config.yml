@@ -23,19 +23,19 @@ color:
     - '#383838'
     - '#8c8c8c'
   lightness: 0.4375
-analytics:
-  twitter: null
-  google: UA-70292614-1
-  facebook: null
-favicon: null
 cta:
   bucket: null
   version: null
   domain: null
+analytics:
+  twitter: null
+  google: UA-70292614-1
+  facebook: null
 name: Become The Shadow
+favicon: null
 opengraph:
   image: null
   type: null
   appId: null
 typography_spectrum: 0.1059
-layout_spectrum: 0.5
+layout_spectrum: 1
