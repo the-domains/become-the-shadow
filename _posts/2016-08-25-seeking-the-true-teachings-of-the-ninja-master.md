@@ -1,14 +1,22 @@
 ---
-datePublished: '2016-08-25T04:15:30.389Z'
-sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
 inFeed: true
 hasPage: true
+inNav: false
+inLanguage: null
+keywords: []
+description: Seeking the true teachings of the Ninja Master
+datePublished: '2016-08-25T04:17:38.766Z'
+dateModified: '2016-08-25T04:17:13.460Z'
+sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
 author: []
 via: {}
-dateModified: '2016-08-25T04:15:30.048Z'
 title: ''
-publisher: {}
-description: Seeking the true teachings of the Ninja Master
+authors: []
+publisher:
+  name: null
+  domain: null
+  url: null
+  favicon: null
 starred: false
 url: seeking-the-true-teachings-of-the-ninja-master/index.html
 _type: Article
