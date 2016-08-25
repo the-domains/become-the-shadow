@@ -3,20 +3,21 @@ inFeed: false
 hasPage: true
 inNav: true
 inLanguage: null
-starred: false
 keywords: []
-description: Once Upon A Time
-datePublished: '2015-11-16T22:57:56.213Z'
-dateModified: '2015-11-16T22:57:52.816Z'
-title: About Me
+description: ''
+datePublished: '2016-08-25T03:01:44.452Z'
+dateModified: '2016-08-25T03:01:44.091Z'
+title: ''
 sourcePath: _posts/2015-11-16-once-upon-a-time.md
-published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
+author: []
+via: {}
+starred: false
 url: once-upon-a-time/index.html
 _type: WebPage
 
