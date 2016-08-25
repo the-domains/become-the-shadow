@@ -1,5 +1,5 @@
 ---
-datePublished: '2016-08-25T03:15:00.041Z'
+datePublished: '2016-08-25T03:46:30.588Z'
 sourcePath: _posts/2015-11-16-a-sparring-partner-with-no-mind.md
 inFeed: true
 authors: []
@@ -7,7 +7,7 @@ hasPage: true
 keywords: []
 author: []
 via: {}
-dateModified: '2016-08-25T03:14:59.153Z'
+dateModified: '2016-08-25T03:46:30.178Z'
 title: A sparring partner with no mind
 publisher: {}
 description: aka To find a dummy
@@ -18,6 +18,12 @@ url: a-sparring-partner-with-no-mind/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/4a5f02ef-8880-40ec-a0bc-0cd5e1fe0a0c.jpg)
+
+# A sparring partner with no mind
+
+aka To find a dummy
+
 # A sparring partner with no mind
 
 aka To find a dummy
