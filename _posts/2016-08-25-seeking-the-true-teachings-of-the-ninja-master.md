@@ -5,15 +5,19 @@ inNav: false
 inLanguage: null
 keywords: []
 description: ''
-datePublished: '2016-08-25T04:02:13.828Z'
-dateModified: '2016-08-25T04:01:53.115Z'
+datePublished: '2016-08-25T04:03:27.701Z'
+dateModified: '2016-08-25T04:02:21.846Z'
 title: ''
-authors: []
-publisher: {}
 author: []
 via: {}
-starred: false
 sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
+authors: []
+publisher:
+  name: null
+  domain: null
+  url: null
+  favicon: null
+starred: false
 url: seeking-the-true-teachings-of-the-ninja-master/index.html
 _type: Article
 
