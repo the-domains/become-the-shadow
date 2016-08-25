@@ -1,22 +1,21 @@
 ---
-description: Seeking the true teachings of the Ninja Master
-dateModified: '2016-08-25T03:30:57.875Z'
-datePublished: '2016-08-25T03:31:43.932Z'
-title: ''
-author: []
-publisher: {}
-via: {}
-starred: false
+datePublished: '2016-08-25T03:40:44.819Z'
 sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
+author: []
+via: {}
+dateModified: '2016-08-25T03:40:44.383Z'
+title: ''
+publisher: {}
+description: Seeking the true teachings of the Ninja Master
+starred: false
 inFeed: true
 hasPage: false
 inNav: false
 _type: MediaObject
 
 ---
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/3969fee2-c8ba-4229-a227-1aec98a9173f.jpg)
-
 **Seeking the true teachings of the Ninja Master**
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/3969fee2-c8ba-4229-a227-1aec98a9173f.jpg)
 
 I have been reading many books lately. Not all of them are from the bujinkan, but most of them pertain to martial arts or Japanese history in some way. But I finished reading one book and then started reading another and what they both said connected and kind of inspired me to make this article.
 
