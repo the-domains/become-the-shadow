@@ -1,9 +1,9 @@
 ---
-datePublished: '2016-08-25T03:40:44.819Z'
+datePublished: '2016-08-25T03:50:05.708Z'
 sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
 author: []
 via: {}
-dateModified: '2016-08-25T03:40:44.383Z'
+dateModified: '2016-08-25T03:50:04.106Z'
 title: ''
 publisher: {}
 description: Seeking the true teachings of the Ninja Master
