@@ -1,5 +1,5 @@
 ---
-datePublished: '2016-08-25T03:11:32.362Z'
+datePublished: '2016-08-25T03:42:35.878Z'
 sourcePath: _posts/2015-11-16-slow-motion.md
 inFeed: true
 authors: []
@@ -7,7 +7,7 @@ hasPage: true
 keywords: []
 author: []
 via: {}
-dateModified: '2016-08-25T03:11:31.555Z'
+dateModified: '2016-08-25T03:42:35.418Z'
 title: Slow Motion
 publisher: {}
 description: >-
@@ -26,7 +26,7 @@ url: slow-motion/index.html
 _type: Article
 
 ---
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/9c13f7aa-e678-4fb1-8767-0ef008211aa1.png)
+![Shihan Mundo Ruiz Tapia on the right.](https://the-grid-user-content.s3-us-west-2.amazonaws.com/9c13f7aa-e678-4fb1-8767-0ef008211aa1.png)
 
 # Slow Motion
 
