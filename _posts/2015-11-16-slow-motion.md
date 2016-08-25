@@ -1,18 +1,22 @@
 ---
-datePublished: '2016-08-25T03:49:07.614Z'
-sourcePath: _posts/2015-11-16-slow-motion.md
 inFeed: true
-authors: []
 hasPage: true
+inNav: false
+inLanguage: null
 keywords: []
+description: ''
+datePublished: '2016-08-25T03:55:54.535Z'
+dateModified: '2016-08-25T03:55:26.669Z'
+sourcePath: _posts/2015-11-16-slow-motion.md
 author: []
 via: {}
-dateModified: '2016-08-25T03:49:06.996Z'
 title: Slow Motion
-publisher: {}
-description: ''
-inLanguage: null
-inNav: false
+authors: []
+publisher:
+  name: null
+  domain: null
+  url: null
+  favicon: null
 starred: false
 url: slow-motion/index.html
 _type: Article
