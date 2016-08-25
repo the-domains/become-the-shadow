@@ -1,5 +1,5 @@
 ---
-datePublished: '2016-08-25T03:46:30.588Z'
+datePublished: '2016-08-25T03:49:32.567Z'
 sourcePath: _posts/2015-11-16-a-sparring-partner-with-no-mind.md
 inFeed: true
 authors: []
@@ -7,7 +7,7 @@ hasPage: true
 keywords: []
 author: []
 via: {}
-dateModified: '2016-08-25T03:46:30.178Z'
+dateModified: '2016-08-25T03:49:32.168Z'
 title: A sparring partner with no mind
 publisher: {}
 description: aka To find a dummy
@@ -24,12 +24,7 @@ _type: Article
 
 aka To find a dummy
 
-# A sparring partner with no mind
-
-aka To find a dummy
-
 Ok so I have been looking into a way to practice kata at home. The major problem that I ran into that so many of Bujinkans forms involve a joint lock and then taking your opponent to the ground. So that means that I need something that can be thrown around and I need something with arms. On top of all that the joints need to be able to lock.
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/bc93442a-b417-415f-ad55-d0209926987e.jpg)
 
 So for this I toyed with a couple ideas so far. I first looked into a grappling dummy, but majority of those are only meant for BJJ and only one or two actually stand by themselves. When I was looking at those they cost a ton of money and most of them have arms that are basically stuffed and will flop around. The major problem is getting them to stay standing and then release when I throw them. So I was looking into some kind quick release system. Basically it adds up to a ton of money.
 ![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/b3733860-961e-4525-9846-00f3a2b6cf5c.png)
