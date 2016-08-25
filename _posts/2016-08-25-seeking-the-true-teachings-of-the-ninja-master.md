@@ -1,17 +1,21 @@
 ---
-datePublished: '2016-08-25T03:50:05.708Z'
+datePublished: '2016-08-25T03:52:33.520Z'
 sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
+inFeed: true
+isBasedOnUrl: null
+authors: []
+hasPage: false
+keywords: []
 author: []
 via: {}
-dateModified: '2016-08-25T03:50:04.106Z'
+dateModified: '2016-08-25T03:52:33.021Z'
 title: ''
 publisher: {}
 description: Seeking the true teachings of the Ninja Master
-starred: false
-inFeed: true
-hasPage: false
+inLanguage: null
 inNav: false
-_type: MediaObject
+starred: false
+_type: Blurb
 
 ---
 **Seeking the true teachings of the Ninja Master**
