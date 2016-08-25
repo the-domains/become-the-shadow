@@ -6,8 +6,8 @@ isBasedOnUrl: null
 inLanguage: null
 keywords: []
 description: Seeking the true teachings of the Ninja Master
-datePublished: '2016-08-25T03:55:43.990Z'
-dateModified: '2016-08-25T03:54:40.306Z'
+datePublished: '2016-08-25T03:57:10.826Z'
+dateModified: '2016-08-25T03:55:54.118Z'
 sourcePath: _posts/2016-08-25-seeking-the-true-teachings-of-the-ninja-master.md
 author: []
 via: {}
