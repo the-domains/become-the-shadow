@@ -4,7 +4,7 @@
         <description><![CDATA[Become The Shadow]]></description>
         <link>https://thegrid.ai/become-the-shadow/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 25 Aug 2016 04:11:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Aug 2016 04:14:26 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/become-the-shadow/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Become The Shadow]]></title>
@@ -14,18 +14,25 @@
             <pubDate>Fri, 20 Nov 2015 13:49:17 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/e6d9467e3e0cf49582b11bd56f252f0d/croprotate.jpg?cropheight=1746&cropwidth=2960&degrees=0&input=https%3A%2F%2Fseishinninpodojo.files.wordpress.com%2F2012%2F01%2Ftakamatsu-sensei.jpg&x=0&y=0">]]></description>
+            <link>https://seishinninpodojo.files.wordpress.com/2012/01/takamatsu-sensei.jpg</link>
+            <guid isPermaLink="false">2d721587-b8eb-4f22-ba4c-d39ce204e2d1</guid>
+            <pubDate>Thu, 25 Aug 2016 04:14:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/a323e93e-afe2-4bf3-8c2a-ce520e9ea904.jpg">]]></description>
+            <link>https://thegrid.ai/become-the-shadow/seeking-the-true-teachings-of-the-ninja-master/index.html</link>
+            <guid isPermaLink="false">537fbba6-5f29-4a7a-addf-f0ce2a4f6db2</guid>
+            <pubDate>Thu, 25 Aug 2016 04:12:56 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Weapons]]></title>
             <description><![CDATA[<article><h1>Weapons</h1><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/613854a1-ff70-4fd7-aacb-2b073f044b22.gif"></article>]]></description>
             <link>https://thegrid.ai/become-the-shadow/weapons/index.html</link>
             <guid isPermaLink="false">7cce2959-7b94-42d5-bc97-851e46792a7a</guid>
             <pubDate>Thu, 25 Aug 2016 04:11:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <description><![CDATA[<article><img src="https://seishinninpodojo.files.wordpress.com/2012/01/takamatsu-sensei.jpg"></article>]]></description>
-            <link>https://seishinninpodojo.files.wordpress.com/2012/01/takamatsu-sensei.jpg</link>
-            <guid isPermaLink="false">2d721587-b8eb-4f22-ba4c-d39ce204e2d1</guid>
-            <pubDate>Thu, 25 Aug 2016 04:06:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Slow Motion]]></title>
@@ -68,13 +75,6 @@
             <link>http://happobiken.com/index.php/blog/entry/building-skill</link>
             <guid isPermaLink="false">c24872c2-8c0a-4e9f-a3eb-71115b1797ee</guid>
             <pubDate>Wed, 18 Nov 2015 13:44:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why Are You In The Dojo?]]></title>
-            <description><![CDATA[<article><h1>Why Are You In The Dojo?</h1><p>I had my technique ripped to shreds by a teacher the other day. He pointed out every little mistake, and he wasn't the least bit gentle. There were no attempts to soften any criticism or to protect my ego. This was the epitome of "in your face" instruction.</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/52c0aec3651573c9051590936929ea259f96b5ae.jpg"></article>]]></description>
-            <link>http://budobum.blogspot.com/2015/11/why-are-you-in-dojo.html</link>
-            <guid isPermaLink="false">2afc8519-4c69-4780-931a-9342685d8f82</guid>
-            <pubDate>Wed, 18 Nov 2015 13:37:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
