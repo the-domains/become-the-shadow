@@ -1,5 +1,5 @@
 ---
-datePublished: '2016-08-25T03:42:35.878Z'
+datePublished: '2016-08-25T03:43:44.374Z'
 sourcePath: _posts/2015-11-16-slow-motion.md
 inFeed: true
 authors: []
@@ -7,18 +7,10 @@ hasPage: true
 keywords: []
 author: []
 via: {}
-dateModified: '2016-08-25T03:42:35.418Z'
+dateModified: '2016-08-25T03:43:42.588Z'
 title: Slow Motion
 publisher: {}
-description: >-
-  Awhile ago I got the great pleasure of attending a seminar by Shihan Mundo
-  Ruiz Tapia. I am not going to go into long winded details about what kata we
-  studied or anything else that you should really just be learning from your
-  sensei, but I will say that it was a great class and I learned a lot. I say
-  class because I picked up a nail coming home Saturday night so I couldn’t
-  return on Sunday. No this article is going to go over two major things that I
-  learned from not the martial parts of the art themselves but what I learned
-  from how Sensei Mundo teaches and trains.
+description: ''
 inLanguage: null
 inNav: false
 starred: false
@@ -26,6 +18,9 @@ url: slow-motion/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/3b7a255e-30df-4a09-a188-36f40bd23cb0.png)
+
+# Slow Motion
 ![Shihan Mundo Ruiz Tapia on the right.](https://the-grid-user-content.s3-us-west-2.amazonaws.com/9c13f7aa-e678-4fb1-8767-0ef008211aa1.png)
 
 # Slow Motion
