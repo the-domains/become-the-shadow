@@ -1,5 +1,34 @@
-title: One Man's Adventure to Become a Ninja.
-purpose: []
+typography_spectrum: 0.1059
+color:
+  saturation: 0.75
+  brandStrength: 0.5
+  rhythmicContrast: 0.25
+  brandColors:
+    - '#de1000'
+    - '#ffffff'
+    - '#000000'
+    - '#383838'
+    - '#8c8c8c'
+  lightness: 0.4375
+opengraph:
+  image: null
+  type: null
+  appId: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: UA-70292614-1
+  facebook: null
+name: Become The Shadow
+cta:
+  bucket: null
+  version: null
+  domain: null
+navigation:
+  - name: About Me
+    id: 19b709c1-f78a-4277-81ae-aa4e14125500
+    type: content
+favicon: null
 collections:
   - index:
       path: /
@@ -12,30 +41,5 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
-color:
-  saturation: 0.75
-  brandStrength: 0.5
-  rhythmicContrast: 0.25
-  brandColors:
-    - '#de1000'
-    - '#ffffff'
-    - '#000000'
-    - '#383838'
-    - '#8c8c8c'
-  lightness: 0.4375
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: UA-70292614-1
-  facebook: null
-name: Become The Shadow
-favicon: null
-opengraph:
-  image: null
-  type: null
-  appId: null
-typography_spectrum: 0.1059
-layout_spectrum: 1
+title: One Man's Adventure to Become a Ninja.
+purpose: []
