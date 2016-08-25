@@ -28,6 +28,9 @@ navigation:
   - name: About Me
     id: 19b709c1-f78a-4277-81ae-aa4e14125500
     type: content
+  - name: Links
+    id: 22d88063-731b-4abf-9726-3752d729f7ec
+    type: content
 favicon: null
 collections:
   - index:
